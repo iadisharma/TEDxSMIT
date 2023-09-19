@@ -50,17 +50,8 @@ npm run dev
 4. Open in Your Browser
 Open your web browser and go to http://localhost:5173 to view the TEDxSMIT Website.
 
-## 😍 Our Valuable Contributors
-
-Thanks to these wonderful people ✨
-
-<a href="https://github.com/pooranjoyb/tedxsmit/graphs/contributors">
-  
-<img src="https://contrib.rocks/image?repo=pooranjoyb/tedxsmit" />
 
 </a>
-
-💙 Happy Contributions !! 💙
 
 ## 📜 License 
 
