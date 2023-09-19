@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  scroll-behavior: smooth;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#tsparticles{
+  z-index: 0;
+}
+
+#navbar, .content{
+  position: relative;
+  z-index: 50;
+}
+
+.glass, .glass2{
+  position: relative;
+  background: rgba( 255, 255, 255, 0.05 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.glass2{
+  padding: 3rem 0 3rem 0;
+}
+
+.wrapper{
+  display: flex;
+  overflow: hidden;
+}
+
+.wrapper img{
+  padding: 0 2rem 0 2rem;
+  animation: marquee 6000ms linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform:  translateX(0);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
